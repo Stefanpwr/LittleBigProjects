@@ -1,0 +1,128 @@
+body{
+    background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
+}
+.Welcome{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    width: 30%;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EC4E2C;
+    animation: ease-in;
+    animation-duration: 4s;
+    animation-name: showing;
+
+
+}
+.hello{
+    position: absolute;
+    color: #EC4E2C;
+    left: 10%;
+    top: 24%;
+    font-size: 40px;
+}
+@keyframes showing {
+    from,
+   60%,
+    70%,
+    90%,
+    to {
+        animation:  cubic-bezier(0.4, 0.61, 0.355, 1);
+    }
+
+    from {
+        opacity: 0;
+       transform:  translate3d(0, 1500px, 0);
+}
+    60% {
+        opacity: 1;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    70% {
+        transform: translate3d(0, 10px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, -5px, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+.information{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.personal{
+    color: white;
+
+}
+.informationDiv{
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}.git{
+    width: 50px;
+    height: 50px;
+}
+ .gitL{
+     color: white;
+ }
+.sources{
+
+    width: 50px;
+    height: 50px;
+}
+.code{
+
+    color: white;
+}
+@keyframes slideInLeft {
+    from {
+        transform: translate3d(-300%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.popup {
+    position: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popuptext {
+    margin-left: 6px;
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute; z-index: 1;
+    bottom: 60%;
+    left: 55%;
+}
+
+.popup .show {
+    visibility: visible;
+    animation: fadeIn 2s
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
