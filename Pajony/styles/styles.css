@@ -1,0 +1,651 @@
+body{
+	background-color:black;
+    background-position: 50% 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+@media print {
+    table.table1{
+		color:white;
+		border-color:white;
+		position: absolute;
+		top: 45%;
+		left:30%;
+		width:800px;
+		background-image:linear-gradient(black, darkviolet);
+	}
+	td.td1{
+		width: 100px;
+		height: 25px;	
+	}
+ }
+a{
+    text-decoration: none;
+    color: white;
+    font-style: inherit;
+}
+p.p1{
+    position: absolute;
+    top:42%;
+    left:28.5%;
+	font-size:23px;
+    color: white;
+    font-style: inherit;}
+p.p2{
+    position: absolute;
+    top:38.3%;
+    left: 28.7%;
+    color: white;
+	font-size:23px;
+    font-style: inherit;}
+p.p3{
+    position: absolute;
+    top: 46%;
+    left: 28.4%;
+    color: white;
+	font-size:23px;
+    font-style: inherit;}
+p.p4{
+    position: absolute;
+    top: 49.7%;
+    left: 27.7%;
+    color: white;
+	font-size:23px;
+    font-style: inherit;
+}
+p.p5{
+    position: absolute;
+    top: 53.6%;
+    left: 27.1%;
+    color: white;
+	font-size:23px;
+    font-style: inherit;}
+p.p6{
+    position: absolute;
+    top:57.4%;
+    left: 26%;
+    color: white;
+	font-size:23px;
+    font-style: inherit;}
+p.p7{
+    position: absolute;
+    top: 5%;
+    left: 39.5%;
+	font-size:50px;
+    color: darkviolet;
+    font-style: italic;
+	text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px darkviolet, 
+    2px 1px 1px #ccc, 1px 2px 1px darkviolet,
+    3px 2px 1px #ccc, 2px 3px 1px darkviolet,
+    3px 3px 1px #ccc, 3px 4px 1px darkviolet,
+    4px 4px 1px #ccc, 4px 5px 1px darkviolet,
+    5px 5px 1px #ccc, 5px 6px 1px darkviolet,
+    5px 6px 1px darkviolet;
+	 
+}
+p.p8{
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+}
+p.p9{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+	font-size: 25px;
+    color: darkviolet;
+	font-weight: 700;
+	
+    font-family: 'Ranga', cursive;;
+	
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-delay: -1s;
+}
+
+@keyframes slidein
+{
+  from {
+    margin-top: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+.p13{
+    color: white;
+   }
+p.p15{
+    position: absolute;
+top: 65%;
+left: 29.4%;
+color:white;
+    font-size: 23px;
+    font-style: inherit;
+}
+
+p.p17{
+    position: absolute;
+    top: 71%;
+    left: 30%;
+    color: white;
+}
+p.p18{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    color: white;
+}
+	
+p.p1:hover { font-weight: bold}
+p.p2:hover { font-weight: bold }
+p.p3:hover { font-weight: bold }
+p.p4:hover { font-weight: bold }
+p.p5:hover { font-weight: bold }
+p.p6:hover { font-weight: bold }
+
+p.helpText{
+	color:white;
+    position: absolute;
+	font-style: italic;
+	font-size: 30px;
+    top: 30%;
+    left:35%;
+}
+p.tForm{
+	position: absolute;
+	font-size:25px;
+    top: 22%;
+    left:80%;
+	color:white;
+    font-family: 'Ranga', cursive;;
+}
+img.bt1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+img.bt2{
+    position: absolute;
+    top: 51.5%;
+    left: 25%;
+}
+img.logimg{
+    position: absolute;
+    top: 50.3%;
+    right: 18.7%;
+    width: 290px;
+}
+img.log{
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    top: 64.25%;
+    right:17% ;
+}
+article.art1{
+    position: absolute;
+    color: white;
+    top: 37%;
+    left: 40%;
+    width:34em;
+}
+article.art2{
+    position: absolute;
+    color: white;
+
+    top: 57%;
+    left:40%;
+    width:34em;
+}
+h1.hart{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 39.7%;
+    color: white;
+}
+h1.hart2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 39.7%;
+}
+h1.hart3{
+    color: white;
+    margin-left: 80px;
+    text-align: center;
+	font-style:italic;
+	font-size: 45px;
+    color: darkviolet;
+}
+h1.hart4{
+    color: darkviolet;
+    margin-left: 30px;
+    text-align: center;
+	font-size: 60px;
+	font-style:italic;
+}
+h1.hart5{
+    color: darkviolet;
+    margin-left: 30px;
+	margin-top: 55px;
+    text-align: center;
+	font-size: 50px;
+	font-style:italic;
+}
+.blur{
+  -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+  filter: blur(5px);
+}
+form.form1{
+	position: absolute;
+
+    top: 40%;
+    left:35%;
+    width:50em;
+}
+form.form2{
+	position: absolute;
+
+    top: 30%;
+    left:35%;
+    width:50em;
+}
+form.form3{
+	position: absolute;
+    top: 30%;
+    left:42%;
+    width:37.2em;
+	height:34em;
+}
+label{
+    color: white;
+}
+label.label1{
+	font-style: italic;
+	font-size: 30px;
+}
+legend{
+    color: white;
+}
+legend.legend1{
+	padding: 20px 0 0;
+	font-style: italic;
+	font-size: 30px;
+}
+input{
+    color:white;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input1{
+	margin-left:67px;
+    color:white;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input2{
+	margin-left: 265px;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+	color:white;
+}
+input.input3{
+	margin-left:220px;
+	color:white;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input4{
+	margin-left:245px;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+	color:white;
+}
+input.input5{
+	margin-left:368px;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+	color:white;
+}
+input.input6{
+	margin-top: 28px;
+	margin-left:500px;
+	color: white; 
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input7{
+	margin-top: 28px;
+	margin-left:8px;
+	color: white;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input8{
+	margin-left:312px;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.input9{
+	margin-left:60px;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+input.login{
+    position: absolute;
+    top:67.2%;
+    right:20.9%;
+    width: 85px;
+    height: 15px;
+    background: transparent;
+    padding: 4px;
+    border: none;
+    color: white;
+}
+input.password{
+    position: absolute;
+    top:67.2%;
+    right:14.8%;
+    width: 85px;
+    height: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+input.logbtn{
+    position: absolute;
+    top: 74.5%;
+    right: 19.55%;
+    width: 120px;
+    height: 30px;
+}
+input[type=checkbox]:checked + label {
+  color: darkviolet;
+} 
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+select.select1{
+	margin-left: 145px;
+    color:white;
+	background-image:linear-gradient(black, rgb(79, 0, 112));
+}
+select option{
+	margin: 40px;
+	background: rgb(79, 0, 112);
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+.whiteSpider1{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+	transform:rotate(45deg);
+    top: 70%;
+    left: 80%;
+    background: transparent;
+    border: none;
+}
+.whiteSpider2{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+	transform:rotate(275deg);
+    top: 11%;
+    left: 70%;
+    background: transparent;
+    border: none;
+}
+.whiteSpider3{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+	transform:rotate(215deg);
+    top: 10%;
+    left: 28%;
+    background: transparent;
+    border: none;
+}
+.whiteSpider4{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+	transform:rotate(130deg);
+    top: 48%;
+    left: 12%;
+    background: transparent;
+    border: none;
+}
+.whiteSpider5{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+	transform:rotate(100deg);
+	bottom:5%;
+    left: 40%;
+    background: transparent;
+    border: none;
+	
+}
+.spiderImage{
+	
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+ol{
+	width: 170px;
+	
+}
+ol.ol1{
+    display: flex;
+    align-content: space-between;
+    color: white;
+	position: absolute;
+    top: 32%;
+    left:31%;
+	font-style: italic;
+	font-size: 25px;
+}
+fieldset{
+    border: none;
+}
+table.table1{
+	color:white;
+	border-style:double;
+	border-color:white;
+	position: absolute;
+    top: 45%;
+    left:29%;
+	width:900px;
+	background-image:linear-gradient(black, darkviolet);
+	
+}
+td.td1{
+	width: 125px;
+	height: 37px;	
+}
+
+td::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  
+  border: 10px solid blue;
+  border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
+  border-image-slice: 33%;
+  border-image-repeat: round;
+  border-image-outset: 0;
+}
+textarea.textarea1{
+    color: white;
+    border-radius: 10px;
+    border: 2px solid darkviolet;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+    box-shadow:0 1px 4px hsl(282, 100%, 22%), 0 0 40px rgb(115, 0, 165) inset;
+	transition-property: background;
+	transition-duration: 5s;
+	
+}
+textarea.textarea1:hover{
+	background: hsl(282, 100%, 22%);
+}
+
+.Lycosidae {
+	text-align:justify;
+    column-count:2;
+    font-size:1.25em;
+	color:white;
+	margin-top: 250px;
+	margin-left: 600px;
+    column-gap: 70px;
+    column-rule: 10px double darkviolet;
+	width: 700px;
+}
+.Liocranidae {
+    column-count: 3;
+    column-gap: 70px;
+    column-rule: 10px double darkviolet;
+    position: absolute;
+	color:white;
+	margin-top: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+    font-size: 1.25em;
+	text-align:justify;
+}
+.Pholcidae{
+    column-count: 3;
+    column-gap: 70px;
+    column-rule: 10px double darkviolet;
+    position: absolute;
+	color:white;
+	margin-top: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+    font-size: 1.25em;
+	text-align:justify;
+}
+
+@media only screen and (max-width: 599px) {
+  .Pholcidae {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+	text-align:justify;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Pholcidae {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+	text-align:justify;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Pholcidae {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+	text-align:justify;
+  }
+}
+.Gnaphosidae{
+	text-align:justify;
+    column-count:2;
+    font-size:1.25em;
+	color:white;
+	margin-top: 250px;
+	margin-left: 600px;
+    column-gap: 70px;
+    column-rule: 10px double darkviolet;
+	width: 700px;
+}
+div.zegarek{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;
+}
+button.addLi{
+	position: absolute;
+	font-size:20px;
+    top: 34.5%;
+    left:25%;
+	color:white;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+}
+button.bImages{
+	position: absolute;
+	font-size:20px;
+    top: 50%;
+    left:78%;
+	color:white;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+}
+button.bForm{
+	position: absolute;
+	font-size:20px;
+    top: 45%;
+    left:78%;
+	width:236px;
+	color:white;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+}
+button.deleteLi{
+	position: absolute;
+	font-size:20px;
+    top: 39%;
+    left:25%;
+	width:93px;
+	color:white;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+}
+button.zakupy{
+    position: absolute;
+    top: 38%;
+    left: 51%;
+	color:white;
+    background-image:radial-gradient(black, hsl(282, 100%, 22%));
+}
+p.zakupiony{
+    color: white;
+    font-style: inherit;
+    position: absolute;
+    top: 70%;
+}
+p.miejsce{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 120px;
+    font-size: large;
+}
+p.miejsceIlosc{
+    color: white;
+    position: absolute;
+    top: 74.78%;
+    left: 60px;
+    font-size: large;
+}
+p.ilosc{
+    color: white;
+    font-style: inherit;
+    position: absolute;
+    top: 75%;
+}
+.ress{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+.ress2{
+    position: absolute;
+    top: 80%;
+    left: 6%;
+}

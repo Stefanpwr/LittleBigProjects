@@ -1,0 +1,41 @@
+﻿    <!DOCTYPE html>
+    <html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz Błędu</title>
+	<meta name="Keywords" content="formularz, błąd, zgłosić, zgłoś błąd" />
+	<meta name="Description" content="Znalazłeś błąd który nam umknął? Podziel się z nami i pomóż nam sprawić aby nasz internetowy sklep stał się ejszcze lepszy!" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script type = "text/javascript" src="scripts/formBlad.js"></script>
+</head>
+<body>
+<img class= "whiteSpider1" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider2" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider3" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider4" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider5" alt="WhiteSpider" src="images/whiteSpider.png">
+<h1 class="hart5">Zauważyłeś błąd? <br/>Zgłoś go nam!</h1>
+<form id="form2"class="form2">
+    <label class = "label1">Twój Adres E-mail:<input class="input3" type="text" required placeholder="Jan.Kowalski@op.pl"></label><br/>
+
+    <label class = "label1">Twoje Imię:<input class="input8" type="text" required placeholder="Jan"></label><br/>
+
+        <label class = "label1">Czy chcesz otrzymać odpowiedź? </label>
+        <input class="input9" type="radio" name="odpowiedz" value="tak" checked="checked" /><label class = "label1">Tak</label>
+        <input class="input7" type="radio" name="odpowiedz" value="nie"/><label class = "label1">Nie</label><br/>
+
+    <p class="p8">Wybierz rodziaj problemu
+        <select class="select1" name="nazwa">
+            <option>Problem ze stroną</option>
+            <option>Problem z dostawą</option>
+            <option>Produkt niedostępny</option>
+            <option>Inne</option>
+        </select></p>
+
+    <br><br>
+        <textarea class="textarea1" name="nazwa" cols="85" rows="10" required placeholder="Opisz swój problem"></textarea><br/>
+    <input id="submit" class="input6" type="submit" value="Prześlij">
+    <input id="reset"class="input7" type="reset" value="Czyść">
+</form>
+</body>
+</html>

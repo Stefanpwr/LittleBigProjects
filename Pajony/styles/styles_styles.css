@@ -1,0 +1,19 @@
+.kontener{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    height: fit-content;
+}
+.color{
+    background-color: purple;
+    width: 30px;
+    height: 15px;
+    background-image: none;
+
+}
+.test{
+    position: absolute;
+    top: 60%;
+
+}

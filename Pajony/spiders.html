@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rodzaje pająków</title>
+	<meta name="Keywords" content="pająki, rodzaje, rodziny pająków, informacje" />
+	<meta name="Description" content="Świat jest pełen pająków. My wam pokażemy takie których w życiu nie widzieliście na oczy!
+										Od rodziny Lycosidae, poprzez Pholcidae, Gnaphosidae aż do Liocranidae.
+											Daj się polubić pająkom, a na pewno Ty tez je polubisz gdy bliżej je poznasz!" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+</head>
+<body onload="brak()">
+	<script type = "text/javascript" src="scripts/elements.js"></script>
+	<script type="text/javascript" src="scripts/clock.js"></script>
+<p class="p9">Ciekawe filmy ukryte na stronie.<br>Aby je zobaczyć kliknij na pająki.<br>Miłego oglądania !!!</p>
+<p>
+	<a href="https://video.nationalgeographic.com/video/tarantula_goliath?source=searchvideo">
+	<img class= "whiteSpider1" alt="WhiteSpider" src="images/whiteSpider.png">
+	</a>
+</p>
+<p>
+	<a href="https://video.nationalgeographic.com/video/news/180409-spider-silk-ballooning-animals-vin-spd?source=searchvideo">
+	<img class= "whiteSpider2" alt="WhiteSpider" src="images/whiteSpider.png">
+	</a>
+</p>
+<p>
+	<a href="https://video.nationalgeographic.com/video/news/170710-sea-spider-breathing-vin-spd?source=searchvideo">
+	<img class= "whiteSpider3" alt="WhiteSpider" src="images/whiteSpider.png">
+	</a>
+</p>
+<p>
+	<a href="https://video.nationalgeographic.com/video/survival-guide/survival-guide-tarantula-contact?source=searchvideo">
+	<img class= "whiteSpider4" alt="WhiteSpider" src="images/whiteSpider.png">
+	</a>
+</p>
+<p>
+	<a href="https://video.nationalgeographic.com/video/news/160311-spider-bondage-vin?source=searchvideo">
+	<img class= "whiteSpider5" alt="WhiteSpider" src="images/whiteSpider.png">
+	</a>
+</p>
+<h1 class="hart3">Spis Pająków pogrupowany po rodzinach</h1>
+<button id="addLi" class="addLi">Odśwież</button>
+<button id="delateLi" class="deleteLi">Cofnij</button>
+<div class="divco">
+<ol class="ol1">
+    <li><b><a style="text-decoration: none" href="Lycosidae.html">Lycosidae</a></b>
+        <ol>
+            <li id="paj" onclick="aetana2()">Allocosinae</li>
+            <li>Artoriinae</li>
+            <li>Evippinae</li>
+            <li>Lycosinae</li>
+            <li>Pardosinae</li>
+            <li>Piratinae</li>
+            <li>Sosippinae</li>
+            <li>Tricassinae </li>
+            <li>Venoniinae </li>
+            <li>Wadicosinae</li>
+        </ol>
+    </li>
+    <li><b><a style="text-decoration: none" href="Pholcidae.html">Pholcidae</a></b>
+    <ol>
+        <li id="aetana" onclick="aetana()">Aetana</li>
+        <li>Anansus </li>
+        <li>Anopsicus</li>
+        <li>Artema</li>
+        <li>Aucana </li>
+        <li>Aymaria </li>
+        <li>Belisana</li>
+    </ol>
+    </li>
+    <li><b><a style="text-decoration: none" href="Gnaphosidae.html">Gnaphosidae</a></b>
+    <ol>
+        <li>Allomicythus </li>
+        <li>Allozelotes</li>
+        <li>Amazoromus</li>
+        <li>Amusia</li>
+        <li>Anagraphis</li>
+    </ol>
+    </li>
+    <li><b><a style="text-decoration: none" href="Liocranidae.html">Liocranidae</a></b>
+    <ol id="ol2">
+        <li>Agraecina</li>
+        <li>Agroeca </li>
+        <li>Andromma</li>
+        <li>Apostenus</li>
+        <li>Arabelia </li>
+    </ol></li>
+</ol>
+    <button id="zakup" class="zakupy" onclick="aetana()">+</button>
+</div>
+<p class="zakupiony">Wybrany pająk: </p>
+<p class="ilosc">Ilosc: </p>
+<p class="miejsceIlosc" id="wartosc">0</p>
+<p class="miejsce" id="miejsce"></p>
+
+<a href="spiders.html"><button class="ress">Resetuj</button></a>
+<a href="problem.php"><button class="ress2">Dalej</button></a>
+</body>
+
+
+</html>

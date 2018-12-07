@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Oferty Pracy</title>
+	<meta name="Keywords" content="praca, nowa praca, oferta, oferta pracy, zatrudnić, nowy pracownik" />
+	<meta name="Description" content="Praca w biurze to za mało? Przyjdź do nas i pracuj z najlepszą ekipą na świecie. 
+										Otwórz w swoim życiu bramkę do egzotycznego świata, na pewno nie pożałujesz!" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script type = "text/javascript" src="scripts/ImageCollection.js"></script>
+	<script type = "text/javascript" src="scripts/FormCollection.js"></script>
+</head>
+<body>
+
+<img class= "whiteSpider1" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider2" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider3" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider4" alt="WhiteSpider" src="images/whiteSpider.png">
+<img class= "whiteSpider5" alt="WhiteSpider" src="images/whiteSpider.png">
+<h1 class="hart5">Zatrudnij się u nas !!!</h1>
+	<p id="tForm" class="tForm"></p>
+<button class="bImages" id="bImages">Ile obrazków na stronie?</button>
+<button class="bForm" id="bForm">Jak wypełnione?</button>
+    <form class="form3" autocomplete="on" action="skrypt.php" method="post">
+        <label class="label1">Imię:<input type="text" style="margin-left: 250px" required placeholder="Jan" autofocus id="imie" name="imie"></label><br/>
+        <label class="label1">Nazwisko:<input type="text" style="margin-left: 188px" required placeholder="Kowalski" id="nazwisko" name="nazwisko"></label><br/>
+        <label class="label1">Data Urodzin:<input type="date" style="margin-left: 162px; color: white" required min="1930-01-01" max="2000-01-01" id="data" name="data"></label><br/>
+        <label class="label1">E-mail:<input type="email" style="margin-left: 221px" placeholder="example@gmail.com" required id="email" name="email"> </label><br/>
+        <label class="label1">Numer telefonu:<input type="tel" style="margin-left: 117px" placeholder="601-200-300" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required id="tel"> </label><br/>
+   <fieldset>
+  	<legend class="legend1" >Jakie stanowisko Cię interesuje?</legend>
+  	<div>
+    		<input type="checkbox" id="Redaktor" name="job[]" value="Redaktor">
+    		<label class="label1">Redaktor</label>
+  	</div>
+  	<div>
+    		<input type="checkbox" id="ProgramistaFrontend" name="job[]" value="Programista Frontend">
+    		<label class="label1">Programista frontend</label>
+  	</div>
+  	<div>
+    		<input type="checkbox" id="ProgramistaBackend" name="job[]" value="Programista Backend">
+    		<label class="label1">Programista backend</label>
+  	</div>
+  	<div>
+    		<input type="checkbox" id="Dostawca" name="job[]" value="Dostawca">
+    		<label class="label1">Dostawca</label>
+  	</div>
+  </fieldset>
+  	<label><input class="input6" type="submit" value="Prześlij" style="margin-left: 115px" ></label>
+  	<label><input class="input7" type="reset" value="Czyść"></label>
+    </form>
+
+</body>
+</html>
